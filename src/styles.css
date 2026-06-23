@@ -4,6 +4,19 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-brand-bg: #f8f8f8;
+  --color-brand-orange: #FF7100;
+  --color-brand-blue: #2D238B;
+  --color-brand-night: #222240;
+  --font-display: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /*
  * Design system definition.
  *
