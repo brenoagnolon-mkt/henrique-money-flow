@@ -23,21 +23,23 @@ function Index() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-16 md:py-24 lg:py-32">
           {/* Coluna texto */}
           <div className="flex flex-col gap-6">
-            <span className="text-xs font-bold uppercase tracking-widest text-brand-orange md:text-sm">
+            <span className="inline-flex w-fit items-center gap-2 rounded-full border border-brand-orange/30 bg-brand-orange/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-brand-orange md:text-sm">
               Atenção: Aula exclusiva para servidores públicos federais
             </span>
             <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight text-brand-blue md:text-5xl lg:text-6xl">
               Descubra como{" "}
               <span className="text-brand-orange">
-                transformar parte do seu salário em patrimônio
-              </span>{" "}
-              que te dará renda sem trabalhar mais, sem pagar juros e sem
-              comprometer seu orçamento mensal.
+                transformar parte do seu salário em patrimônio.
+              </span>
             </h1>
+            <p className="text-lg leading-relaxed text-brand-night/80 md:text-xl">
+              Aprenda o caminho para ter renda extra sem trabalhar mais e sem
+              pagar juros ao banco.
+            </p>
             <div className="flex flex-wrap items-center gap-3">
               <span className="inline-flex items-center gap-2 rounded-full border border-brand-orange/30 bg-brand-orange/10 px-4 py-2 text-sm font-semibold text-brand-night">
                 <span className="h-2 w-2 rounded-full bg-brand-orange" />
-                Data e Hora da aula: 06/07 às 20h
+                Data e Hora da aula gratuita: 06/07 às 20h
               </span>
             </div>
             <div className="mt-4">
