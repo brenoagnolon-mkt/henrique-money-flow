@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Aula para Servidores Públicos Federais" },
+      { name: "description", content: "Aula para Servidores Públicos Federais" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Aula para Servidores Públicos Federais" },
+      { property: "og:description", content: "Aula para Servidores Públicos Federais" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Aula para Servidores Públicos Federais" },
+      { name: "twitter:description", content: "Aula para Servidores Públicos Federais" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/bbb5744c-5c6e-4ee9-9a0f-e99ae3ebd695" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/bbb5744c-5c6e-4ee9-9a0f-e99ae3ebd695" },
     ],
     links: [
       {
