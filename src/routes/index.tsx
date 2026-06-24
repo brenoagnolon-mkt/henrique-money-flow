@@ -194,7 +194,7 @@ function Index() {
 
           <div className="rounded-3xl border border-brand-night/10 bg-white p-4 shadow-xl shadow-brand-night/5 md:p-8">
             <iframe
-              src="https://tally.so/embed/vGgvGd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&formEventsForwarding=1"
+              src="https://tally.so/embed/vGgvGd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
               loading="lazy"
               width="100%"
               height={500}
