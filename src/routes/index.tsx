@@ -18,7 +18,7 @@ function Index() {
     <main className="min-h-screen bg-brand-bg font-sans text-brand-night antialiased">
       {/* ============ SEÇÃO 1: HERO ============ */}
       <section className="relative overflow-hidden">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-16 md:py-24 lg:py-32">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-16 md:grid-cols-2 md:gap-16 md:pb-24 md:pt-12 lg:pb-32 lg:pt-16">
           {/* Coluna texto */}
           <div className="flex flex-col gap-6">
             <span className="inline-flex w-fit items-center gap-2 rounded-full border border-brand-orange/30 bg-brand-orange/10 px-4 py-2 text-xs font-bold uppercase tracking-widest text-brand-orange md:text-sm">
