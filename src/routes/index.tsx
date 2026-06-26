@@ -113,6 +113,18 @@ function Index() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-12 flex justify-center">
+            <a
+              href="#formulario"
+              className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-orange to-[#ff8a2b] px-8 py-4 text-base font-bold text-white shadow-lg shadow-brand-orange/30 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-brand-orange/40 md:text-lg"
+            >
+              Garantir meu Acesso
+              <span className="transition-transform duration-300 group-hover:translate-x-1">
+                →
+              </span>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -170,6 +182,18 @@ function Index() {
               </p>
             </div>
           </div>
+        </div>
+
+        <div className="mx-auto mt-12 flex max-w-6xl justify-center px-6">
+          <a
+            href="#formulario"
+            className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-orange to-[#ff8a2b] px-8 py-4 text-base font-bold text-white shadow-lg shadow-brand-orange/30 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-brand-orange/40 md:text-lg"
+          >
+            Garantir meu Acesso
+            <span className="transition-transform duration-300 group-hover:translate-x-1">
+              →
+            </span>
+          </a>
         </div>
       </section>
 
