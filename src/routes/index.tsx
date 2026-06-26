@@ -7,7 +7,7 @@ export const Route = createFileRoute("/")({
       { title: "Aula Exclusiva — Henrique Mac Dowell | Servidores Públicos Federais" },
       { name: "description", content: "Aula gratuita: transforme parte do seu salário em patrimônio e renda passiva, sem comprometer seu orçamento." },
       { property: "og:title", content: "Aula Exclusiva para Servidores Públicos Federais" },
-      { property: "og:description", content: "Descubra como transformar parte do seu salário em patrimônio. 06/07 às 20h." },
+      { property: "og:description", content: "Descubra como transformar parte do seu salário em patrimônio. 07/07 às 20h." },
     ],
   }),
   component: Index,
@@ -37,7 +37,7 @@ function Index() {
             <div className="flex flex-wrap items-center gap-3">
               <span className="inline-flex items-center gap-2 rounded-full border border-brand-orange/30 bg-brand-orange/10 px-4 py-2 text-sm font-semibold text-brand-night">
                 <span className="h-2 w-2 rounded-full bg-brand-orange" />
-                Data e Hora da aula gratuita: 06/07 às 20h
+                Data e Hora da aula gratuita: 07/07 às 20h
               </span>
             </div>
             <div className="mt-4">
@@ -210,7 +210,7 @@ function Index() {
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-base text-brand-night/70 md:text-lg">
               Preencha o formulário abaixo e receba todas as instruções para
-              participar da aula no dia <strong>06/07 às 20h</strong>.
+              participar da aula no dia <strong>07/07 às 20h</strong>.
             </p>
           </div>
 
