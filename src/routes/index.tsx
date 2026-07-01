@@ -60,10 +60,12 @@ function Index() {
               <div className="absolute -inset-6 -z-10 rounded-[2.5rem] bg-gradient-to-br from-brand-orange/15 via-transparent to-brand-blue/15 blur-2xl" />
               <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-brand-night/5 to-brand-blue/10">
                 <img
-                  src={fotoHenrique}
-                  alt="Henrique Mac Dowell"
-                  className="h-auto w-full object-contain"
-                />
+  src={fotoHenriqueDesktop}
+  alt="Henrique Mac Dowell"
+  width={800}
+  height={1428}
+  className="h-auto w-full object-contain"
+/>
               </div>
             </div>
           </div>
@@ -137,11 +139,17 @@ function Index() {
             <div className="relative mx-auto max-w-sm md:max-w-none">
               <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-gradient-to-br from-brand-orange/30 to-brand-blue/40 blur-2xl" />
               <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-white/5 to-white/0 ring-1 ring-white/10">
-                <img
-                  src={fotoHenrique}
-                  alt="Henrique Mac Dowell"
-                  className="h-auto w-full object-contain"
-                />
+               <picture>
+  <source media="(max-width: 767px)" srcSet={fotoHenriqueMobile} type="image/webp" />
+  <img
+    src={fotoHenriqueDesktop}
+    alt="Henrique Mac Dowell"
+    width={800}
+    height={1428}
+    loading="lazy"
+    className="h-auto w-full object-contain"
+  />
+</picture>
               </div>
             </div>
           </div>
