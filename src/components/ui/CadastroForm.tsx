@@ -26,7 +26,7 @@ const formSchema = z.object({
 type FormValues = z.infer<typeof formSchema>;
 
 // URL obtida no Passo 1 (Google Apps Script)
-const WEB_APP_URL = "https://script.google.com/macros/s/SEU_SCRIPT_ID_AQUI/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycby7gzy6K6G-i-vJImWLj0iXfzVy0l22XtDcq_ZmRzLrCy4h_CXAQ-0xgmbLEorK-hRt/exec";
 
 export default function CadastroForm() {
   const [isSubmitting, setIsSubmitting] = React.useState(false);
