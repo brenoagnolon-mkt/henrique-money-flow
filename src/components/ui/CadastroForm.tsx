@@ -20,7 +20,7 @@ import { Button } from "@/components/ui/button"; // Componente Button do seu UI
 const formSchema = z.object({
   nome: z.string().min(2, { message: "O nome deve ter pelo menos 2 caracteres." }),
   email: z.string().email({ message: "Insira um e-mail válido." }),
-  telefone: z.string().min(8, { message: "Insira um telefone válido." }),
+  whatsapp: z.string().min(8, { message: "Insira um telefone válido." }),
 });
 
 type FormValues = z.infer<typeof formSchema>;
