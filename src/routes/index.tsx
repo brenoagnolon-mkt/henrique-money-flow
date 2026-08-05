@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import fotoHenriqueDesktop from "@/assets/foto-henrique.webp";
 import fotoHenriqueMobile from "@/assets/foto-henrique-mobile.webp";
+import CadastroForm from "@/components/ui/CadastroForm";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -42,7 +43,7 @@ function Index() {
               </span>
             </div>
             <div className="mt-4">
-              <a
+              
                 href="#formulario"
                 className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-orange to-[#ff8a2b] px-8 py-4 text-base font-bold text-white shadow-lg shadow-brand-orange/30 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-brand-orange/40 md:text-lg"
               >
@@ -118,7 +119,7 @@ function Index() {
           </ul>
 
           <div className="mt-12 flex justify-center">
-            <a
+            
               href="#formulario"
               className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-orange to-[#ff8a2b] px-8 py-4 text-base font-bold text-white shadow-lg shadow-brand-orange/30 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-brand-orange/40 md:text-lg"
             >
@@ -194,7 +195,7 @@ function Index() {
         </div>
 
         <div className="mx-auto mt-12 flex max-w-6xl justify-center px-6">
-          <a
+          
             href="#formulario"
             className="group inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-brand-orange to-[#ff8a2b] px-8 py-4 text-base font-bold text-white shadow-lg shadow-brand-orange/30 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-xl hover:shadow-brand-orange/40 md:text-lg"
           >
@@ -224,17 +225,7 @@ function Index() {
           </div>
 
           <div className="rounded-3xl border border-brand-night/10 bg-white p-4 shadow-xl shadow-brand-night/5 md:p-8">
-            <iframe
-              src="https://tally.so/embed/vGgvGd?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-              loading="lazy"
-              width="100%"
-              height={500}
-              frameBorder={0}
-              marginHeight={0}
-              marginWidth={0}
-              title="Formulário de Cadastro"
-              className="w-full"
-            />
+            <CadastroForm />
           </div>
         </div>
       </section>
